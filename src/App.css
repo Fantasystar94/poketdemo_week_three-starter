@@ -433,7 +433,6 @@ a {
   font-weight: 800;
   text-transform: uppercase;
   mask-image: linear-gradient(to bottom, #000 50%, transparent 80%);
-  text-stroke: 2px rgba(255, 255, 255, 0.065);
   -webkit-mask-image: linear-gradient(to bottom, #000 50%, transparent 80%);
   -webkit-text-stroke: 2px rgba(255, 255, 255, 0.065);
   z-index: -1;
@@ -937,4 +936,8 @@ td.range-slide {
   60% {
     transform: translate3d(3px, 0, 0);
   }
+}
+@media screen and (max-width:749px)  {
+  .wrapper .logo-pokemon{line-height:1.6em;max-width:350px;}
+  .types-bar{margin:20px auto 40px}
 }
