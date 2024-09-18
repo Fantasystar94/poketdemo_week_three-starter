@@ -938,6 +938,7 @@ td.range-slide {
   }
 }
 @media screen and (max-width:749px)  {
-  .wrapper .logo-pokemon{line-height:1.6em;max-width:350px;}
+  .wrapper .logo-pokemon{line-height:1.6em;max-width:350px;-webkit-text-stroke:0px}
+  
   .types-bar{margin:20px auto 40px}
 }
