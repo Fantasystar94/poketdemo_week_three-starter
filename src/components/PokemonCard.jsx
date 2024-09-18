@@ -9,7 +9,7 @@ const PokemonCard = ({ pokemon }) => {
   return (
     <div
       className={`pokemon-card ${types[0].name}`}
-      onClick={() => openModal(null)}
+      onClick={() => openModal(pokemon)}
     >
       <div>
         <span className="id-number">{"#" + paddedId}</span>

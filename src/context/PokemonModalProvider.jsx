@@ -11,7 +11,7 @@ export const PokemonModalProvider = ({ children }) => {
     isModalOpen: modal.isOpen,
     closeModal: () => setModal((prev) => ({ ...prev, isOpen: false })),
   };
-
+  // console.log(value)
   return (
     <PokemonModalContext.Provider value={value}>
       {children}

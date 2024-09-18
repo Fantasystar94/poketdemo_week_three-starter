@@ -5,7 +5,7 @@ import { getTypeIconSrc } from "../utils/pokemon-helper";
 
 const Modal = () => {
   const { isModalOpen, closeModal, currentPokemon } = usePokemonModal();
-  console.log(currentPokemon)
+  // console.log(isModalOpen,currentPokemon)
   return (
     <Dialog.Root
       open={isModalOpen}

@@ -6,7 +6,6 @@ import TypesBar from "./components/TypesBar";
 import { PokemonModalProvider } from "./context/PokemonModalProvider";
 function App() {
   const [type, setType] = useState("ice");
-
   return (
     <PokemonModalProvider>
       <div className="wrapper">
@@ -14,7 +13,7 @@ function App() {
 
         <TypesBar toggleType={setType} />
         <PokemonsContainer type={type} />
-        <Modal value={value} />
+        <Modal />
       </div>
     </PokemonModalProvider>
   );
